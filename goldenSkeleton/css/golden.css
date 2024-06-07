@@ -91,7 +91,7 @@ h1 {
     background-image: url("city.jpg");
     background-size: 100% 100%;
     text-align: center;
-    color: gold;
+    color: white;
 }
 
 @media (max-width: 800px) {
