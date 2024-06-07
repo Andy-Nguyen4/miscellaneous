@@ -85,3 +85,17 @@ h1 {
 .row-opacity {
     filter: opacity(45%);
 }
+
+.footer {
+    padding: 60px 0px 100px;
+    background-image: url("city.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    color: gold;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+}
