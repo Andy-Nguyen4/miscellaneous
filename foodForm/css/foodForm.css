@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(137, 38, 11);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#overlay {
+    display: flex;
+}
+
+.submission {
+    text-align: center;
+    /*margin-top: 20px;*/
+    margin-bottom: 15px;
+}
+
+.submit {
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    width: 15%;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.burger {
+    text-align: center;
+    line-height: 30px;
+    width: 30%;
+    background-color: beige;
+    border-radius: 30px;
+    overflow: auto;
+}
+
+.ice-cream {
+    text-align: center;
+    line-height: 30px;
+    width: 30%;
+    background-color: beige;
+    border-radius: 30px;
+    overflow: auto;
+}
+
+.pizza {
+    text-align: center;
+    line-height: 30px;
+    width: 30%;
+    background-color: beige;
+    border-radius: 30px;
+    overflow: auto;
+    margin: 0px 25px;
+}
+
+#burger-pic, #pizza-pic, #ice-cream-pic {
+    height: 150px;
+    width: 35%;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.topping-divide {
+    width: 25%;
+}
+
+@media (max-width: 800px) {
+    #overlay {
+        flex-direction: column;
+    }
+}
