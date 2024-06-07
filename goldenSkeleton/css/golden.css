@@ -6,7 +6,7 @@ html, body {
 
 img {
     margin: 10px auto;
-    height: 250px;
+    height: 300px;
 }
 
 h1 {
@@ -41,7 +41,7 @@ h1 {
 }
 
 .space {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
