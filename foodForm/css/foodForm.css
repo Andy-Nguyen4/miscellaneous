@@ -3,13 +3,24 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#overlay {
+#info {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.forms-container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+#forms {
     display: flex;
+    justify-content: space-between;
 }
 
 .submission {
     text-align: center;
-    /*margin-top: 20px;*/
     margin-bottom: 15px;
 }
 
@@ -52,7 +63,6 @@ button:hover {
     background-color: beige;
     border-radius: 30px;
     overflow: auto;
-    margin: 0px 25px;
 }
 
 #burger-pic, #pizza-pic, #ice-cream-pic {
@@ -66,8 +76,14 @@ button:hover {
     width: 25%;
 }
 
+#thank-you {
+    margin: auto;
+    max-width: 500px;
+    color: white;
+}
+
 @media (max-width: 800px) {
-    #overlay {
+    #forms {
         flex-direction: column;
     }
 }
