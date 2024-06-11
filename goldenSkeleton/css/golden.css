@@ -52,7 +52,7 @@ h1 {
     justify-content: space-around;
 }
 
-.row, .row-invert, .row-contrast, .row-saturate, .row-grey, .row-hue, .row-sepia, .row-opacity {
+.row-original, .row-invert, .row-contrast, .row-saturate, .row-grey, .row-hue, .row-sepia, .row-opacity {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
