@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    gap: 15px;
+    background-color: beige;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.30;
+    letter-spacing: 0.1px;
+}
+
+.ruby, .emerald, .lynx, .beetle, .case, .mask1, .mask2, .mirror, .scepter, .rug {
+    border: 2px solid black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
