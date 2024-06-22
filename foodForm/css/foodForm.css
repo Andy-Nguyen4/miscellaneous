@@ -86,7 +86,7 @@ button:hover {
 }
 
 #thank-you {
-    margin: auto;
+    margin:  100px auto auto;
     max-width: 1000px;
     height: 750px;
     color: rgb(0, 0, 0);
