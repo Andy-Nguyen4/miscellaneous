@@ -47,25 +47,7 @@ button:hover {
     background-color: blue;
 }
 
-.burger {
-    text-align: center;
-    line-height: 30px;
-    width: 30%;
-    background-color: beige;
-    border-radius: 30px;
-    overflow: auto;
-}
-
-.ice-cream {
-    text-align: center;
-    line-height: 30px;
-    width: 30%;
-    background-color: beige;
-    border-radius: 30px;
-    overflow: auto;
-}
-
-.pizza {
+.burger, .ice-cream, .pizza {
     text-align: center;
     line-height: 30px;
     width: 30%;
@@ -77,8 +59,8 @@ button:hover {
 #burger-pic, #pizza-pic, #ice-cream-pic {
     height: 150px;
     width: 35%;
-    padding-top: 10px;
-    margin: auto;
+    margin: 15px auto auto;
+    border: 2px solid black;
 }
 
 .topping-divide {
