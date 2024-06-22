@@ -18,14 +18,14 @@ h1 {
     font-size: 20px;
 }
 
-.header {
+header {
     background-color: #000000;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-.header p {
+header p {
     font-size: 16px;
 }
 
@@ -65,13 +65,13 @@ a:visited {
     justify-content: space-between;
 }
 
-.footer {
+footer {
     background-color: #000000;
     color: white;
     padding: 50px 0px;
 }
 
-.footer h3 {
+footer h3 {
     font-size: 25px;
     text-align: center;
 }
