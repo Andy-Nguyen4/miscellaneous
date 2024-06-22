@@ -9,30 +9,31 @@ html, body {
 }
 
 img {
-    margin: 10px auto;
+    margin: 20px auto;
     height: 300px;
+    border: 2px solid white;
 }
 
 h1 {
     font-size: 25px;
 }
 
-.header {
+header {
     background-color: #000000;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-.header p {
+header p {
     font-size: 18px;
 }
 
-.header h1 span {
+header h1 span {
     color: gold;
 }
 
-.header p span {
+header p span {
     color: burlywood;
 }
 
@@ -42,6 +43,8 @@ h1 {
 
 .main {
     background-color: #260139;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 .space {
@@ -90,16 +93,9 @@ h1 {
     filter: opacity(45%);
 }
 
-.footer {
-    padding: 60px 0px 100px;
-    background-image: url("city.jpg");
-    background-size: 100% 100%;
+footer {
+    padding: 50px 0px 50px;
+    background-color: #000000;
     text-align: center;
     color: white;
-}
-
-@media (max-width: 800px) {
-    .container {
-        flex-direction: column;
-    }
 }
