@@ -11,7 +11,7 @@ html, body {
 img {
     margin: 20px auto;
     height: 300px;
-    border: 2px solid white;
+    border: 5px double white;
 }
 
 h1 {
