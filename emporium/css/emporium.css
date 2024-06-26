@@ -18,8 +18,8 @@ header {
 
 .welcome {
     margin: 0 auto;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 5px double white;
+    border-bottom: 5px double white;
 }
 
 .grid-container {
@@ -29,7 +29,7 @@ header {
     padding: 20px;
     background-color: beige;
     justify-content: space-around;
-    background-image: url("inside.jpg");
+    background-image: url("../images/inside.jpg");
     background-size: 100% 100%;
 }
 
@@ -52,14 +52,27 @@ h2 {
 }
 
 .ruby, .emerald, .lynx, .beetle, .case, .mask1, .mask2, .mirror, .scepter, .rug {
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
 img {
     width: 100%;
     height: auto;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+button {
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: blue;
 }
 
 footer {
@@ -71,6 +84,6 @@ footer {
 
 .enjoy {
     margin: 0 auto;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 5px double white;
+    border-bottom: 5px double white;
 }
