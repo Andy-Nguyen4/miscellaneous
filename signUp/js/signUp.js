@@ -8,5 +8,5 @@ if(username.toLowerCase() === 'username' && pw === 'password'){
 } else if(!username || !pw){
   message.innerHTML = 'Add some client-side validation!';
 } else {
-  message.innerHTML = 'Hurray for client-side validation!';
+  message.innerHTML = 'Account created!';
 }
