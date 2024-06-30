@@ -3,8 +3,13 @@
 }
 
 body {
-    background-color: #59CD90;
+    /*background-color: #59CD90;*/
+    background-image: url("../images/library.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #3fa7d6;
+    font-family: "Cinzel", Georgia;
+    font-weight: 400;
 }
 
 form {
@@ -13,16 +18,44 @@ form {
 
 h1 {
     font-size: 3em;
+    text-shadow: 3px 3px 5px #3fa7d6;
 }
 
 .overlay {
-    width: 80%;
-    min-width: 30%;
+    width: 50%;
+    /*min-width: 30%;*/
     margin: 3% auto;
     display: block;
     padding: 2%;
-    height: 90vh;
+    height: 50vh;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 40px;
     text-align: center;
+}
+
+.submit {
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    width: 10%;
+    padding: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+@media screen and (max-width:800px) {
+    .overlay {
+        height: 100%;
+    }
+    .overlay, form, button {
+        width: 100%;
+    }
 }
