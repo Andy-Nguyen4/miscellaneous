@@ -3,8 +3,8 @@
 
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="./css/foodForm.css">
-        <link rel="icon" type="image/x-icon" href="./images/plate.jpg">
+        <link rel="stylesheet" href="./css/foodForm.css">
+        <link rel="icon" href="./images/plate.jpg">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Make A Meal!</title>
     </head>
@@ -24,7 +24,7 @@
 
                 <form class="burger" action="submission.html" method="POST">
 
-                    <img src="./images/burger.jpg" alt="A delicious burger" id="burger-pic">
+                    <img src="./images/burger.jpg" alt="A delicious burger">
                     <hr>
 
                     <h1>Make a Burger!</h1>
@@ -59,15 +59,21 @@
                     <hr>
 
                     <section class="topping-selector">
-                        <label for="topping">What toppings would you like?</label>
-                        <input list="toppings" name="topping" id="topping">
-                        <datalist id="toppings">
-                            <option value="Lettuce"></option>
-                            <option value="Tomato"></option>
-                            <option value="Onion"></option>
-                            <option value="Pickle"></option>
-                            <option value="Mushroom"></option>
-                        </datalist>
+                        <span>What toppings would you like?</span>
+                        <br>
+                        <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+                        <label for="lettuce">Lettuce</label>
+                        <input type="checkbox" name="topping" id="tomato" value="tomato">
+                        <label for="tomato">Tomato</label>
+                        <input type="checkbox" name="topping" id="onion" value="onion">
+                        <label for="onion">Onion</label>
+                        <br>
+                        <input type="checkbox" name="topping" id="pickle" value="pickle">
+                        <label for="pickle">Pickle</label>
+                        <input type="checkbox" name="topping" id="mushroom" value="mushroom">
+                        <label for="mushroom">Mushroom</label>
+                        <input type="checkbox" name="topping" id="none" value="none">
+                        <label for="none">None</label>
                     </section>
                     <hr>
 
@@ -141,13 +147,13 @@
                     <section class="cheesy">
                         <span>How much cheese do you want?</span>
                         <br>
-                        <input type="checkbox" name="cheese" id="none" value="none">
+                        <input type="radio" name="cheese" id="none" value="none">
                         <label for="none">None</label>
-                        <input type="checkbox" name="cheese" id="light" value="light">
+                        <input type="radio" name="cheese" id="light" value="light">
                         <label for="light">Light</label>
-                        <input type="checkbox" name="cheese" id="normal" value="normal">
+                        <input type="radio" name="cheese" id="normal" value="normal">
                         <label for="normal">Normal</label>
-                        <input type="checkbox" name="cheese" id="extra" value="extra">
+                        <input type="radio" name="cheese" id="extra" value="extra">
                         <label for="extra">Extra</label>
                     </section>
                     <hr>
@@ -225,13 +231,13 @@
                     <section class="cone">
                         <span>What type of cone would you like?</span>
                         <br>
-                        <input type="checkbox" name="cone" id="waffle" value="waffle">
+                        <input type="radio" name="cone" id="waffle" value="waffle">
                         <label for="waffle">Waffle</label>
-                        <input type="checkbox" name="cone" id="sugar" value="sugar">
+                        <input type="radio" name="cone" id="sugar" value="sugar">
                         <label for="sugar">Sugar</label>
-                        <input type="checkbox" name="cone" id="cake cone" value="cake cone">
+                        <input type="radio" name="cone" id="cake cone" value="cake cone">
                         <label for="cake cone">Cake Cone</label>
-                        <input type="checkbox" name="cone" id="waffle bowl" value="waffle bowl">
+                        <input type="radio" name="cone" id="waffle bowl" value="waffle bowl">
                         <label for="waffle bowl">Waffle Bowl</label>
                     </section>
                     <hr>

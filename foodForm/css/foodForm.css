@@ -57,7 +57,7 @@ button:hover {
     border: 3px solid black;
 }
 
-#burger-pic, #pizza-pic, #ice-cream-pic {
+img {
     height: 150px;
     width: 35%;
     margin: 15px auto auto;
@@ -80,7 +80,21 @@ button:hover {
 }
 
 @media (max-width: 800px) {
+    /* For tablets */
     #forms {
         flex-direction: column;
+    }
+    .burger, .pizza, .ice-cream {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    /* For mobile phones */
+    #forms {
+        flex-direction: column;
+    }
+    .burger, .pizza, .ice-cream {
+        width: 100%;
     }
 }
