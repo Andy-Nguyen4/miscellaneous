@@ -7,7 +7,7 @@ body {
     background-image: url("../images/library.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: #3fa7d6;
+    color: #a90303;
     font-family: "Cinzel", Georgia;
     font-weight: 400;
 }
@@ -18,7 +18,7 @@ form {
 
 h1 {
     font-size: 3em;
-    text-shadow: 3px 3px 5px #3fa7d6;
+    text-shadow: 2px 2px 5px black;
 }
 
 .overlay {
@@ -28,7 +28,7 @@ h1 {
     display: block;
     padding: 2%;
     height: 50vh;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 40px;
     text-align: center;
 }
@@ -52,10 +52,11 @@ button:hover {
 }
 
 @media screen and (max-width:800px) {
-    .overlay {
+    body, .overlay, form {
         height: 100%;
-    }
-    .overlay, form, button {
         width: 100%;
+    }
+    .submit {
+        width: 20%;
     }
 }
