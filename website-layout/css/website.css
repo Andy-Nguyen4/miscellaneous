@@ -5,14 +5,16 @@
 body {
     font-family: Georgia;
     padding: 10px;
-    background: #f1f1f1;
+    background: wheat;
 }
 
 /* header/blog title */
 .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    background: #1abc9c;
+    color: white;
+    border: 2px solid black;
 }
 
 .header h1 {
@@ -52,22 +54,25 @@ body {
 .rightcolumn {
     float: left;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: wheat;
     padding-left: 20px;
 }
 
 /* fake img */
 .fakeimg {
-    background-color: #aaa;
+    background-color: #333;
     width: 100%;
     padding: 20px;
+    border: 1px solid white;
 }
 
 /* add a card effect for articles */
 .card {
-    background-color: white;
+    background-color: #1abc9c;
+    color: white;
     padding: 20px;
     margin-top: 20px;
+    border: 2px solid black;
 }
 
 /* clear floats after the columns */
@@ -80,9 +85,11 @@ body {
 /* footer */
 .footer {
     padding: 20px;
-    text-align: center;
-    background: #ddd;
     margin-top: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    border: 2px solid black;
 }
 
 /* responsive layout: when the screen is less than 800px wide, make the two columns
