@@ -4,23 +4,59 @@
 }
 */
 
+body {
+    background-image: url("../images/universe.jpg");
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    font-family: "Rampart One", Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    /*font-style: normal;*/
+    color: white; 
+    padding: 10px 0px;  
+}
+
 #container {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     margin: auto;
-    background: #1abc9c;
+    background-color: rgba(66, 82, 77, 0.7);
+    /*background-image: url("../images/moon.jpg");*/
+    border: 5px double white;
+
 }
 
 #animate {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    background-color: gold;
-    border: 5px solid maroon;
+    width: 150px;
+    height: 150px;
+    /*background-color: gold;*/
+    background-image: url("../images/eye.jpg");
+    background-size: contain;
+    border: 5px double gold;
 }
 
 #button-area {    
     margin: auto;
     text-align: center;
+    padding-top: 30px;
+}
+
+#move {
+    border-radius: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    font-family: "Audiowide", Georgia;
+    color: white;
+    width: 5%;
+    padding: 10px;
+}
+
+#move:hover {
+    background-color: blue;
 }
