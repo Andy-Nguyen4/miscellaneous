@@ -1,0 +1,26 @@
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+
+#container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background: #1abc9c;
+}
+
+#animate {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+    border: 5px solid maroon;
+}
+
+#button-area {    
+    margin: auto;
+    text-align: center;
+}
