@@ -51,7 +51,7 @@ h2 {
     letter-spacing: 0.1px;
 }
 
-.ruby, .emerald, .lynx, .beetle, .case, .mask1, .mask2, .mirror, .scepter, .rug {
+[class^="item"] {
     border: 3px solid black;
 }
 
