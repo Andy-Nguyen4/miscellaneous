@@ -20,6 +20,8 @@ body {
 .navbar {
     display: flex;
     background-color: black;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 /* the navigation bar links */
@@ -48,12 +50,13 @@ body {
     background-color: blue;
     color: white;
     padding: 20px;
+    border-right: 2px solid black;
 }
 
 /* main column */
 .main {
     flex: 50%;
-    /*background-color: white;*/
+    background-color: beige;
     padding: 20px;
 }
 
@@ -63,11 +66,12 @@ body {
     background-color: blue;
     color: white;
     padding: 20px;
+    border-left: 2px solid black;
 }
 
 /* fake image, as an example */
 .fakeimg {
-    background-color: #333;
+    background-color: black;
     /*color: white;*/
     width: 100%;
     padding: 20px;
@@ -76,6 +80,7 @@ body {
 
 .main > .fakeimg {
     color: white;
+    border: none;
 }
 
 /* footer */
