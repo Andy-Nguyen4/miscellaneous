@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+/* styling the body */
+body {
+    font-family: Georgia;
+    margin: 0;
+}
+
+/* header/logo title */
+.header {
+    padding: 40px;
+    text-align: center;
+    background: blue;
+    color: white;
+}
+
+/* the top navigation bar */
+.navbar {
+    display: flex;
+    background-color: black;
+}
+
+/* the navigation bar links */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* change color on hover */
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* sidebar/left column */
+.left-side {
+    flex: 25%;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+/* main column */
+.main {
+    flex: 50%;
+    /*background-color: white;*/
+    padding: 20px;
+}
+
+/* sidebar/right column */
+.right-side {
+    flex: 25%;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+/* fake image, as an example */
+.fakeimg {
+    background-color: #333;
+    /*color: white;*/
+    width: 100%;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.main > .fakeimg {
+    color: white;
+}
+
+/* footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}
