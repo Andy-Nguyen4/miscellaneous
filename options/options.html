@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/options.css">
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Options</title>
+    </head>
+
+    <body>
+        <div class="heading">
+            <h1>OPTIONS/INPUTS</h1>
+        </div>
+
+        <div class="description">
+            <p>Here are some examples of input forms that you can use on your webpage(s).</p>
+        </div>
+
+        <div class="form-container">
+            <div class="form">
+                <div class="input">
+                    <!-- Drop-down list -->
+                    <label for="patterns">Pick a pattern</label>
+                    <select id="patterns" name="patterns">
+                        <option value="checkerboard">Checkerboard</option>
+                        <option value="diagonal">Diagonal</option>
+                        <option value="vertical">Vertical</option>
+                        <option value="horizontal">Horizontal</option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <!-- Data-list -->
+                    <label for="color">Pick a color</label>
+                    <input list="colors" name="color" id="color">
+                    <datalist id="colors">
+                        <option value="Black"></option>
+                        <option value="White"></option>
+                        <option value="Blue"></option>
+                        <option value="Red"></option>
+                        <option value="Purple"></option>
+                    </datalist>
+                </div>
+
+                <!-- input type range -->
+                <div class="input">
+                    <label for="sound">Adjust the sound volume:</label>
+                    <br>
+                    <span>0</span>
+                    <input type="range" name="sound" id="sound" value="5" min="0" max="10">
+                    <span>10</span>
+                </div>
+
+                <!-- input type range -->
+                <div class="input">
+                    <label for="music">Adjust the music volume:</label>
+                    <br>
+                    <span>0</span>
+                    <input type="range" name="music" id="music" value="5" min="0" max="10">
+                    <span>10</span>
+                </div>
+
+                <!-- input type radio -->
+                <div class="input">
+                    <span>Pick yes or no</span>
+                    <br>
+                    <input type="radio" name="yn" id="yes" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="yn" id="no" value="no">
+                    <label for="no">No</label>
+                </div>
+
+                <!-- input type checkbox -->
+                <div class="input">
+                    <span>Check one or more</span>
+                    <br>
+                    <input type="checkbox" name="option" id="this" value="this">
+                    <label for="this">This</label>
+                    <input type="checkbox" name="option" id="that" value="that">
+                    <label for="that">That</label>
+                    <input type="checkbox" name="option" id="there" value="there">
+                    <label for="there">There</label>
+                    <input type="checkbox" name="option" id="here" value="here">
+                    <label for="here">Here</label>
+                </div>
+
+                <!-- input type text -->
+                <div class="input">
+                    <label for="random">Enter some random text</label>
+                    <input type="text" name="random" id="random">
+                </div>
+
+                <!-- input type text field/area -->
+                <div class="input">
+                    <label for="extra">Anything else you want to add?</label>
+                    <br>
+                    <textarea name="extra" id="extra" rows="3" cols="40"></textarea>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>

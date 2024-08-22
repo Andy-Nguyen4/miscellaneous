@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/futuristic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Audiowide', georgia;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.description {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.form-container {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+}
+
+.input {
+    margin: 20px;
+}
