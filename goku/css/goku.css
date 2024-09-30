@@ -8,7 +8,7 @@ html, body {
     font-family: Impact, sans-serif;
 }
 
-header {
+.header {
     background-color: darkgray;
     text-align: center;
     padding: 20px;
@@ -21,7 +21,7 @@ h1 {
 }
 
 img {
-    margin: 10px auto 10px;
+    margin: 20px auto 20px;
     height: 750px;
     border: 15px double black;
 }
@@ -46,15 +46,16 @@ img {
     border-right: 5px solid black;
 }
 
-footer {
+.footer {
     background-color: darkgray;
     text-align: center;
     padding: 20px;
     border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 /*@media screen and (max-width: 800px) {
-    .space {
+    .gokuCard {
         width: 100%;
     }
 }*/
