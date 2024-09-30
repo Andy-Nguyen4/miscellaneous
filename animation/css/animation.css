@@ -7,6 +7,7 @@
 body {
     background-image: url("../images/universe.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -15,7 +16,6 @@ body {
     font-family: "Rampart One", Georgia;
     font-weight: 400;
     font-size: 20px;
-    /*font-style: normal;*/
     color: white; 
     padding: 10px 0px;  
 }
@@ -26,7 +26,6 @@ body {
     height: 700px;
     margin: auto;
     background-color: rgba(66, 82, 77, 0.7);
-    /*background-image: url("../images/moon.jpg");*/
     border: 5px double white;
 
 }
@@ -35,7 +34,6 @@ body {
     position: absolute;
     width: 150px;
     height: 150px;
-    /*background-color: gold;*/
     background-image: url("../images/eye.jpg");
     background-size: contain;
     border: 5px double gold;
