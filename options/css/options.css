@@ -5,6 +5,7 @@
 body {
     background-image: url(../images/futuristic.jpeg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     font-family: 'Audiowide', georgia;
 }
