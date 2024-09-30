@@ -3,21 +3,14 @@
 }
 
 body {
-    /*background-color: #59CD90;*/
-    /*background-image: url("../images/library.jpg");
+    background-image: url("../images/library.jpg");
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-attachment: fixed;
+    background-size: cover;
     color: #a90303;
     font-family: "Cinzel", Georgia;
     font-weight: 400;
     margin: 0;
-}
-
-.form-container {
-    background-image: url("../images/library.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
 }
 
 form {
@@ -31,7 +24,6 @@ h1 {
 
 .overlay {
     width: 50%;
-    /*min-width: 30%;*/
     margin: 3% auto;
     display: block;
     padding: 2%;
@@ -39,7 +31,6 @@ h1 {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 40px;
     text-align: center;
-    /*overflow: auto;*/
 }
 
 .submit {
